@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Hanouneh
+    given-names: Jamil
+    orcid: https://orcid.org/0009-0005-5133-4929
+title: "Deep Learning-Based Classification of Colorectal Cancer from Histopathological Images"
+version: 1.0.0
+date-released: 2025-10-25
+url: "https://github.com/[your-username]/colorectal-cancer-histopathology-classifier"
+repository-code: "https://github.com/[your-username]/colorectal-cancer-histopathology-classifier"
+keywords:
+  - colorectal cancer
+  - deep learning
+  - histopathology
+  - medical imaging
+  - ResNet
+  - image classification
+license: MIT
