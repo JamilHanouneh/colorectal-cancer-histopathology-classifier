@@ -415,19 +415,13 @@ python scripts/batch_predict.py --model outputs/models/best_model.pth \
 ```
 colorectal_cancer_classification/
 ├──  README.md                    # This file
-├──  paper.md                     # Complete scientific paper
 ├──  LICENSE                      # MIT License
 ├──  CONTRIBUTING.md              # Contribution guidelines
-├──  CODE_OF_CONDUCT.md          # Code of conduct
 ├──  CITATION.cff                 # Citation information
-├──  CHANGELOG.md                 # Version history
-├──  .gitignore                   # Git ignore rules
 ├──  config.yaml                  # Configuration settings
 ├──  main.py                      # Main pipeline entry point
 ├──  requirements.txt             # Python dependencies
-├──  requirements-dev.txt         # Development dependencies
 ├──  environment.yml              # Conda environment specification
-├──  Makefile                     # Build automation
 │
 ├──  data/
 │   ├── raw/                        #  Download dataset here (NOT included)
