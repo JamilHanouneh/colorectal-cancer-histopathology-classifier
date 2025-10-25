@@ -1,6 +1,5 @@
 # colorectal-cancer-histopathology-classifier
 Deep learning pipeline for automated colorectal cancer classification from histopathological images using ResNet-18. Achieves 97.8% accuracy on the NCT-CRC-HE-100K dataset without transfer learning. Includes complete training pipeline, evaluation metrics, and reproducible implementation.
-Here's the complete **README.md** file for your GitHub repository:
 
 # Deep Learning-Based Classification of Colorectal Cancer from Histopathological Images
 
@@ -110,7 +109,7 @@ Performance on NCT-CRC-HE-100K test set (n=1,500 images):
 ### Clone Repository
 
 ```
-git clone https://github.com/[your-username]/colorectal-cancer-histopathology-classifier.git
+git clone https://github.com/[JamilHanouneh]/colorectal-cancer-histopathology-classifier.git
 cd colorectal-cancer-histopathology-classifier
 ```
 
@@ -327,7 +326,7 @@ pip list
 
 ```
 # Clone repository
-git clone https://github.com/[your-username]/colorectal-cancer-histopathology-classifier.git
+git clone https://github.com/[JamilHanouneh]/colorectal-cancer-histopathology-classifier.git
 cd colorectal-cancer-histopathology-classifier
 
 # Install in editable mode
@@ -937,17 +936,6 @@ chmod +x scripts/*.sh
 ls -la data/ outputs/
 ```
 
-### Still Having Issues?
-
--  Check the [scientific paper](paper.md) for methodology details
--  [Open an issue](https://github.com/[your-username]/colorectal-cancer-histopathology-classifier/issues) with:
-  - Error message (full traceback)
-  - System information (OS, Python version, PyTorch version)
-  - Steps to reproduce
--  [Start a discussion](https://github.com/[your-username]/colorectal-cancer-histopathology-classifier/discussions) for questions
--  Email: [your-email] for direct support
-
----
 
 ##  Contributing
 
@@ -968,7 +956,7 @@ Contributions are welcome! Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for d
 
 ```
 # Clone your fork
-git clone https://github.com/your-username/colorectal-cancer-histopathology-classifier.git
+git clone https://github.com/JamilHanouneh/colorectal-cancer-histopathology-classifier.git
 cd colorectal-cancer-histopathology-classifier
 
 # Create environment
@@ -1004,9 +992,9 @@ If you use this code in your research, please cite:
 ```
 @software{colorectal_cancer_classifier_2025,
   title={Deep Learning-Based Classification of Colorectal Cancer from Histopathological Images},
-  author={[Your Name]},
+  author={[JamilHanouneh]},
   year={2025},
-  url={https://github.com/[your-username]/colorectal-cancer-histopathology-classifier},
+  url={https://github.com/[JamilHanouneh]/colorectal-cancer-histopathology-classifier},
   version={1.0.0},
   license={MIT}
 }
@@ -1014,7 +1002,7 @@ If you use this code in your research, please cite:
 
 ### APA
 
-> [Your Name]. (2025). *Deep Learning-Based Classification of Colorectal Cancer from Histopathological Images* (Version 1.0.0) [Computer software]. GitHub. https://github.com/[your-username]/colorectal-cancer-histopathology-classifier
+> [JamilHanouneh]. (2025). *Deep Learning-Based Classification of Colorectal Cancer from Histopathological Images* (Version 1.0.0) [Computer software]. GitHub. https://github.com/[JamilHanouneh]/colorectal-cancer-histopathology-classifier
 
 ### Dataset Citation
 
