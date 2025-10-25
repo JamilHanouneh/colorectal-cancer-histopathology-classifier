@@ -1,0 +1,54 @@
+# Colorectal Cancer Classification Configuration
+
+project:
+  name: "colorectal_cancer_classification"
+  version: "1.0.0"
+  seed: 42
+  
+data:
+  dataset_name: "NCT-CRC-HE-100K"
+  dataset_source: "zenodo"
+  dataset_url: "https://zenodo.org/records/1214456"
+  dataset_doi: "10.5281/zenodo.1214456"
+  license: "CC BY 4.0"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  image_size: [224, 224]
+  # Binary classification: Normal colon mucosa vs Adenocarcinoma
+  classes: ["NORM", "TUM"]  # Normal vs Tumor
+  num_classes: 2
+  batch_size: 32
+  num_workers: 4
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  
+model:
+  architecture: "resnet18"
+  pretrained: false  # Train from scratch as per PR-OCT paper
+  dropout: 0.3
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  
+training:
+  epochs: 50
+  early_stopping_patience: 10
+  checkpoint_dir: "outputs/models"
+  log_interval: 10
+  save_best_only: true
+  
+augmentation:
+  horizontal_flip: true
+  vertical_flip: true
+  rotation_degrees: 20
+  brightness: 0.2
+  contrast: 0.2
+  
+evaluation:
+  metrics_dir: "outputs/metrics"
+  figures_dir: "outputs/figures"
+  tables_dir: "outputs/tables"
+  
+hardware:
+  device: "cuda"  # or "cpu"
+  mixed_precision: false
