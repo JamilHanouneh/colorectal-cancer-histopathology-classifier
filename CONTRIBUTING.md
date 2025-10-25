@@ -31,4 +31,21 @@ Thank you for your interest in contributing! This project is part of academic re
 - Maintain or improve code coverage
 
 ## Development Setup
+Clone your fork
+git clone https://github.com/your-username/colorectal-cancer-histopathology-classifier.git
+cd colorectal-cancer-histopathology-classifier
+
+Create environment
+conda env create -f environment.yml
+conda activate colorectal_cancer
+
+Install in development mode
+pip install -e .
+
+Run tests
+pytest tests/ -v
+
+
+## Questions?
+Feel free to open an issue for any questions or concerns.
 
