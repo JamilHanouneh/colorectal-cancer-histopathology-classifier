@@ -1089,12 +1089,6 @@ This project is licensed under the **MIT License** - see the [`LICENSE`](LICENSE
 -  Email: jamil.hanouneh1997@gmail.com
 -  GitHub: [@JamilHanouneh](https://github.com/JamilHanouneh)
 -  Institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
+
 **⭐ If you find this project useful, please consider giving it a star! ⭐**
 Made with ❤️ for advancing medical AI research
-[14](https://myscope.training/RDM_Readme_files)
-[15](https://github.com/henriquesebastiao/badges)
-[16](https://cran.r-project.org/web/packages/biopixR/readme/README.html)
-[17](https://huggingface.co/lion-ai/MedImageInsights/blame/refs%2Fpr%2F3/README.md)
-[18](https://www.scribd.com/document/521286477/Readme)
-[19](https://gitlab.com/flywheel-io/public/ohif-viewer/-/blob/master/README.md)
-[20](https://www.makeareadme.com)
