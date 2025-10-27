@@ -741,7 +741,7 @@ python main.py \
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run All Tests
 
